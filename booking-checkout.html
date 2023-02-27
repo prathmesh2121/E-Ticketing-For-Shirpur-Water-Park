@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Checkout form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+<div class="w3-grey w3-animate-zoom" style="padding:20px 50px; margin: 0;
+background-size:cover;">
+
+<div class="w3-section w3-row-padding">
+
+  <div class="w3-twothird">
+    <div class="w3-card-4">
+      <div style="background-color:cadetblue;"class="w3-display-container">
+        <img src="IMG/waterlogo.png" alt="Car" style="width:100%">
+        <div  class="w3-display-bottomleft w3-container  w3-xlarge "></div>
+      </div>
+      <div class="w3-container w3-light-grey">
+        <h1>Your Order Details:</h1>
+        <h3> Name :<?php $_SESSION['name']; ?></h3>
+        <h3> Email :<?php $_SESSION['email'];?></h3>
+        <h3> Contact Number : <?php $_SESSION['mob'];?></h3>
+        <h3> Number of Adults :<?php $_SESSION['name'];?></h3>
+        <h3> Childs Below 10Yrs :<?php $_SESSION['name'];?></h3>
+        <h3> Childs Below 18Yrs :<?php $_SESSION['name'];?></h3>
+        <h2>Total Amount is <?php $_SESSION['total'];?></h2>
+      
+
+    </div>
+    </div>
+  </div>
+  <div class="w3-third w3-container w3-center" style="padding:15px">
+    <div class="w3-card-4">
+      <div class="w3-container">
+        Total count is<br>
+        250₹
+    </div>
+      <div class="w3-container w3-white" style="padding:10px 15px">
+         <button>continue to pay</button>
+      </div>
+    </div>
+</div>
+
+
+
+
+</div>
+
+
+</body>
+</html>
